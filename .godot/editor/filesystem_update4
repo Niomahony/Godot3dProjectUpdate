@@ -3,3 +3,4 @@ res://textures/orange_grid.tres
 res://character.tscn
 res://testmap.tscn
 res://main.tscn
+res://character.gd
