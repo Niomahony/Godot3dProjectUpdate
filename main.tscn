@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dw33me4dfbgbk"]
+
+[ext_resource type="PackedScene" uid="uid://c2mqfl8ml0tct" path="res://character.tscn" id="2_fj6s4"]
+[ext_resource type="PackedScene" uid="uid://bmleixd7mguii" path="res://testmap.tscn" id="2_ldu7c"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.874035, 0.485863, 0, -0.485863, 0.874035, 0, 0, 0)
+
+[node name="testmap" parent="." instance=ExtResource("2_ldu7c")]
+
+[node name="character" parent="." instance=ExtResource("2_fj6s4")]
+transform = Transform3D(0.0560514, 0, 0, 0, 0.0439612, 0, 0, 0, 0.0671037, -1.40512, 10.8803, 8.26338)
