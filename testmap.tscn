@@ -115,6 +115,7 @@ mesh = SubResource("BoxMesh_24qsx")
 transform = Transform3D(-3.48495e-08, 0, -2.4104, 0, 1.26101, 0, 0.797264, 0, -1.05362e-07, 8.79059, 1.75458, 3.46454)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="platform_ramp"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 8.88178e-16, 0, 1, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_qgeph")
 
 [node name="ramp" type="MeshInstance3D" parent="platform_ramp/CollisionShape3D"]

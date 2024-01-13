@@ -58,6 +58,14 @@ shape = SubResource("ConcavePolygonShape3D_m1nen")
 disabled = true
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 1.10792, 4.86603, -0.0061751)
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 0.907462, 4.86603, -0.0061751)
 
 [node name="wallrun_timer" type="Timer" parent="."]
+
+[node name="RayCastRight" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.41339, 0, 0, 0, 1, -0.431555, 3.41078, 1.09412)
+target_position = Vector3(0, 0, 1)
+
+[node name="RayCastLeft" type="RayCast3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1.41339, 0, 0, 0, 1, -0.158015, -0.156948, -1.27525)
+target_position = Vector3(0, 0, -1)
